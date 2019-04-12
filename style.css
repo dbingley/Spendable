@@ -1,0 +1,37 @@
+amp-accordion{
+  background-color: #839192  ;
+  text-align: center;
+
+}
+
+footer{
+  background-color:#839192  ;
+  text-align: center;
+}
+
+@font-face {
+	font-family: "bariolregular";
+	src: url("bariol_regular-webfont.woff");
+	}
+
+html{
+    font-family: "bariolregular", sans-serif;
+  }
+
+
+
+@media (max-width: 600px) {
+	.structural_div, header, footer {
+	padding: 2% 2%;
+	}
+}
+@media (min-width: 601px) and (max-width: 750px) {
+	.structural_div, header, footer {
+	padding: 2% 10%;
+	}
+}
+@media (min-width: 751px) {
+	.structural_div, header, footer {
+	padding: 3% 20%;
+	}
+}
